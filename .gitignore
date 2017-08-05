@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+**.min.*
+**.otz*
+views/images/*.icon*
+views/images/*.header*

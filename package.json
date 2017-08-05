@@ -1,0 +1,33 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Performance Quiz",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-image-resize": "^0.12.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "merge2": "^1.1.0"
+  },
+  "scripts": {
+    "install-tools": "npm install -g serve gulp",
+    "config": "npm run install-tools && npm install && gulp",
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericpatrick/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericpatrick/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/ericpatrick/frontend-nanodegree-mobile-portfolio#readme"
+}
